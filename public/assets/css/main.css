@@ -8,4 +8,19 @@ h2, h2, h3, h4, h5, h6, h7 {
   .desk-img {
     display: none;
   }
+  .mb-p-25 {
+     margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile-section {
+    display: none;
+  }
+}
+
+div.row-icons {
+  align-items: center;
+  justify-content: center;
 }
