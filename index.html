@@ -661,9 +661,9 @@
     <!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
     <!-- <script src="./assets/js/plugins/tilt.min.js"></script> -->
     <!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
-    <script src="./public/assets/js/plugins/choices.min.js"></script>
+    <!-- <script src="./public/assets/js/plugins/choices.min.js"></script> -->
     <!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
-    <script src="./public/assets/js/plugins/parallax.min.js"></script>
+    <!--  <script src="./public/assets/js/plugins/parallax.min.js"></script> -->
     <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
     <script
       src="./public/assets/js/plugins/nouislider.min.js"
@@ -680,57 +680,5 @@
       type="text/javascript"
     ></script>
     <!-- Mandatory init script -->
-    <script>
-      $("body").scrollspy({ target: "#navbar-example" });
-
-      if (document.getElementById("typed")) {
-        var typed = new Typed("#typed", {
-          stringsElement: "#typed-strings",
-          typeSpeed: 70,
-          backSpeed: 50,
-          backDelay: 200,
-          startDelay: 500,
-          loop: true,
-        });
-      }
-    </script>
-    <script type="text/javascript">
-      if (document.getElementById("state1")) {
-        const countUp = new CountUp(
-          "state1",
-          document.getElementById("state1").getAttribute("countTo"),
-        );
-        if (!countUp.error) {
-          countUp.start();
-        } else {
-          console.error(countUp.error);
-        }
-      }
-      if (document.getElementById("state2")) {
-        const countUp1 = new CountUp(
-          "state2",
-          document.getElementById("state2").getAttribute("countTo"),
-        );
-        if (!countUp1.error) {
-          countUp1.start();
-        } else {
-          console.error(countUp1.error);
-        }
-      }
-      if (document.getElementById("state3")) {
-        const countUp2 = new CountUp(
-          "state3",
-          document.getElementById("state3").getAttribute("countTo"),
-        );
-        if (!countUp2.error) {
-          countUp2.start();
-        } else {
-          console.error(countUp2.error);
-        }
-      }
-
-      new Glide(".glide").mount();
-    </script>
-    <script src="script.js"></script>
   </body>
 </html>
